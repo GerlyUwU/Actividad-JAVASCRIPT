@@ -1,0 +1,5 @@
+Hello, World!
+
+This is a sample text file created to demonstrate basic file handling operations. Feel free to modify this content as needed.
+
+- Gerly
