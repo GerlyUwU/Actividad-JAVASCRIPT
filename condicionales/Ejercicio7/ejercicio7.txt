@@ -1,0 +1,18 @@
+INICIO
+    // Definir variables
+    LEER tipoAlumno
+    LEER edad
+
+    // Verificar si el alumno es de FP
+    SI tipoAlumno = "FP" ENTONCES
+        // Verificar si tiene más de 18 años
+        SI edad > 18 ENTONCES
+            ESCRIBIR "Bienvenid@"
+        SINO
+            ESCRIBIR "NO tienes acceso al portal web"
+        FIN_SI
+    SINO
+        // No es necesario indicar nada si no es de FP, o se podría agregar otro mensaje si se desea
+        ESCRIBIR "Solo alumnos de FP pueden acceder"
+    FIN_SI
+FIN
