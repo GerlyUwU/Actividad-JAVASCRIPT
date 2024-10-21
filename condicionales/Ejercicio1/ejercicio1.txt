@@ -1,0 +1,15 @@
+inicio
+num1 <- 0: num2 <- 0
+Introducir "Introduce primer número";num1
+Introducir "Introduce segundo número";num2
+
+Si (num1>num2)
+Escribir "El mayor es el número ", num1
+sino
+Escriure "El mayor es el número ", num2
+
+Fin si
+Fin
+
+
+El ejercicio indica que solo se escriba PSEUDOCODIGO
